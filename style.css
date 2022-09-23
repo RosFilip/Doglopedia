@@ -1,0 +1,67 @@
+
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#main-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 10px 10rem;
+}
+
+#gul-title-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F5F5DC;
+    color: #94805A;
+    width: 100%;
+    max-width: 500px;
+    min-width: 380px;
+    height: 140px;
+}
+#gul-title-card h2{
+    margin-top: 10px;
+}
+
+#nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 10px 50px;
+    max-width: 500px;
+    min-width: 380px;
+    margin: 5px 0px;
+}
+
+#nav a{
+    color: rgb(73, 73, 73);
+}
+
+.page-line{
+    width: 100%;
+    border: 1px solid rgb(73, 73, 73);
+    max-width: 500px;
+    min-width: 380px;
+}
+
+.siberian-title{
+    margin: 20px 0px;
+}
+
+.Siberian-huskey-img{
+    max-width: 350px;
+}
+
+#text-content{
+    text-align: left;
+    max-width: 600px;
+}
