@@ -7,6 +7,13 @@
     padding: 0;
 }
 
+.page-line{
+    width: 100%;
+    border: 1px solid rgb(184, 184, 184);
+    max-width: 500px;
+    min-width: 380px;
+}
+
 #main-container{
     display: flex;
     flex-direction: column;
@@ -26,7 +33,7 @@
     width: 100%;
     max-width: 500px;
     min-width: 380px;
-    height: 140px;
+    height: 150px;
 }
 #gul-title-card h2{
     margin-top: 10px;
@@ -46,13 +53,6 @@
     color: rgb(73, 73, 73);
 }
 
-.page-line{
-    width: 100%;
-    border: 1px solid rgb(73, 73, 73);
-    max-width: 500px;
-    min-width: 380px;
-}
-
 .siberian-title{
     margin: 20px 0px;
 }
@@ -63,5 +63,14 @@
 
 #text-content{
     text-align: left;
+    max-width: 500px;
+}
+
+#text-content h3, p{
+    margin-bottom: 24px;
     max-width: 600px;
+}
+
+footer{
+    margin: 20px 0px;
 }
