@@ -10,7 +10,7 @@
 .page-line{
     width: 100%;
     border: 1px solid rgb(184, 184, 184);
-    max-width: 500px;
+    width: 70%;
     min-width: 380px;
 }
 
@@ -20,7 +20,9 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 10px 10rem;
+    padding: 10px 5rem;
+    width: 100%;
+    height: 100%;
 }
 
 #gul-title-card{
@@ -31,9 +33,11 @@
     background-color: #F5F5DC;
     color: #94805A;
     width: 100%;
-    max-width: 500px;
+    max-width: 70%;
     min-width: 380px;
-    height: 150px;
+    max-height: 300px;
+    padding: 1.5rem;
+    font-size: 2.7vw;
 }
 #gul-title-card h2{
     margin-top: 10px;
@@ -63,12 +67,12 @@
 
 #text-content{
     text-align: left;
-    max-width: 500px;
+    width: 70%;
+
 }
 
 #text-content h3, p{
     margin-bottom: 24px;
-    max-width: 600px;
 }
 
 footer{
