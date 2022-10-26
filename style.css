@@ -69,7 +69,10 @@
 }
 
 .Siberian-huskey-img{
-    max-width: 350px;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 2px solid black;
 }
 
 .Siberian-huskey-img:hover{
